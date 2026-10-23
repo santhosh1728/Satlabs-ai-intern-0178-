@@ -1,0 +1,27 @@
+# AI and Tools Usage Disclosure
+Candidate ID: ai-intern-0178
+
+The following tools and artificial intelligence assistants were used in the completion of this take-home task:
+
+1. Artificial Intelligence Assistant: Google Antigravity / Gemini Assistant
+   - Purpose and Usage:
+     - Analyzing the problem statement and dataset structure.
+     - Inspecting questions.csv against answer_key.csv to locate discrepancies and arithmetic errors in ground truth keys.
+     - Detecting duplicated questions across the benchmark dataset.
+     - Analyzing failure modes in score.py string matching and designing regex-based numerical extraction logic for model responses.
+     - Calculating paired accuracy statistics, latency metrics, and McNemar's test for statistical significance.
+     - Structuring and refining writeup.md to ensure all four required topics were thoroughly covered within the strict 300-word limit.
+     - Organizing reproduction scripts and packaging the submission archive.
+
+2. Python 3.11 (Standard Library: csv, re, collections, statistics, math)
+   - Purpose and Usage:
+     - Parsing and inspecting questions.csv, answer_key.csv, and results.csv.
+     - Executing arithmetic evaluation and verifying all mathematical solutions.
+     - Implementing reproduce.py to ensure 100% deterministic reproducibility of every reported figure.
+     - Validating word count of writeup.md across multiple counting methodologies.
+
+3. Windows PowerShell & Command Line Utilities
+   - Purpose and Usage:
+     - Running Python scripts and reproduction tests.
+     - Inspecting directory structures and verifying local environment configurations.
+     - Archiving submission deliverables into ai-intern-0178.zip.
